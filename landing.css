@@ -57,7 +57,7 @@ body {
 }
 
 .container .boy-backdrop {
-  background-image: url("../hackerearth/assets/img/boy.svg");
+  background-image: url("../hackerearth_Landing/assets/img/boy.svg");
   background-repeat: no-repeat;
   background-size: 100%,100%;
   background-position: 100px -80px;
@@ -70,19 +70,19 @@ body {
 }
 
 .container .backdrop1 {
-  background-image: url("../hackerearth/assets/img/backdrop1.svg");
+  background-image: url("../hackerearth_Landing/assets/img/backdrop1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -250px;
   position: absolute;
-  width: 90vw;
+  width: 99vw;
   height: 1004px;
   z-index: -1;
   overflow: hidden;
 }
 
 .container .backdrop2 {
-  background-image: url("../hackerearth/assets/img/backdrop2.svg");
+  background-image: url("../hackerearth_Landing/assets/img/backdrop2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 150px -450px;
@@ -145,7 +145,7 @@ body {
 }
 
 .chart-section .dotted-backdrop-wrapper {
-  background-image: url("../hackerearth/assets/img/dotted_backdrop.svg");
+  background-image: url("../hackerearth_Landing/assets/img/dotted_backdrop.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 250px;
@@ -230,7 +230,7 @@ body {
 
 .challenges-section .challenges-backdrop {
   position: absolute;
-  background-image: url("../hackerearth/assets/img/challenges_backdrop.svg");
+  background-image: url("../hackerearth_Landing/assets/img/challenges_backdrop.svg");
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: -150px 0px;
@@ -240,7 +240,7 @@ body {
 }
 
 .challenges-section .dotted-backdrop2-wrapper {
-  background-image: url("../hackerearth/assets/img/dotted_backdrop2.svg");
+  background-image: url("../hackerearth_Landing/assets/img/dotted_backdrop2.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 250px;
@@ -484,7 +484,7 @@ body {
 @media screen and (max-width: 520px) {
   .container {
     background-color: #09577A;
-    padding: 10px;
+    padding-bottom: 130px;
   }
   .container .landing-text {
     margin-top: 250px;
@@ -521,11 +521,14 @@ body {
     background-color: #fff;
   }
   .owl-carousel {
+    position: absolute;
+    top: -130px;
     width: 250px;
   }
   .owl-carousel .item {
-    -webkit-box-shadow: -6px 5px 20px #E6DEDE;
-            box-shadow: -6px 5px 20px #E6DEDE;
+    border: none;
+    -webkit-box-shadow: -6px 9px 30px #E6DEDE;
+            box-shadow: -6px 9px 30px #E6DEDE;
     margin: 50px 0px;
   }
   .chart-section {

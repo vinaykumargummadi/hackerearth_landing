@@ -57,20 +57,20 @@ body {
 }
 
 .container .boy-backdrop {
-  background-image: url("../hackerearth_Landing/assets/img/boy.svg");
+  background-image: url("../hackerearth_landing/assets/img/boy.svg");
   background-repeat: no-repeat;
   background-size: 100%,100%;
-  background-position: 100px -80px;
+  background-position: 80px -80px;
   position: absolute;
-  width: 700px;
-  height: 600px;
-  right: 10px;
-  top: 110px;
+  width: 50%;
+  height: 20%;
+  right: 0%;
+  top: 2.9%;
   overflow-x: hidden;
 }
 
 .container .backdrop1 {
-  background-image: url("../hackerearth_Landing/assets/img/backdrop1.svg");
+  background-image: url("../hackerearth_landing/assets/img/backdrop1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -250px;
@@ -82,12 +82,12 @@ body {
 }
 
 .container .backdrop2 {
-  background-image: url("../hackerearth_Landing/assets/img/backdrop2.svg");
+  background-image: url("../hackerearth_landing/assets/img/backdrop2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 150px -450px;
   position: absolute;
-  width: 900px;
+  width: 65vw;
   height: 700px;
   right: 0px;
 }
@@ -145,7 +145,7 @@ body {
 }
 
 .chart-section .dotted-backdrop-wrapper {
-  background-image: url("../hackerearth_Landing/assets/img/dotted_backdrop.svg");
+  background-image: url("../hackerearth_landing/assets/img/dotted_backdrop.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 250px;
@@ -230,7 +230,7 @@ body {
 
 .challenges-section .challenges-backdrop {
   position: absolute;
-  background-image: url("../hackerearth_Landing/assets/img/challenges_backdrop.svg");
+  background-image: url("../hackerearth_landing/assets/img/challenges_backdrop.svg");
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: -150px 0px;
@@ -240,7 +240,7 @@ body {
 }
 
 .challenges-section .dotted-backdrop2-wrapper {
-  background-image: url("../hackerearth_Landing/assets/img/dotted_backdrop2.svg");
+  background-image: url("../hackerearth_landing/assets/img/dotted_backdrop2.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 250px;
@@ -481,7 +481,7 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 520px) {
+@media only screen and (max-width: 520px) {
   .container {
     background-color: #09577A;
     padding-bottom: 130px;
@@ -700,6 +700,101 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media only screen and (min-width: 521px) and (max-width: 768px) {
+  .container .backdrop1 {
+    width: 100%;
+    background-size: cover;
+    background-position: -650px -350px;
+  }
+  .container .boy-backdrop {
+    background-position: 50px 0%;
+  }
+  .container .backdrop2 {
+    background-size: cover;
+    background-position: -40px -200px;
+    width: 50%;
+    height: 15%;
+  }
+  .owl-carousel {
+    width: 250px;
+    padding: 0% 10%;
+    overflow: hidden;
+  }
+  .owl-carousel .item {
+    -webkit-box-shadow: -6px 9px 30px #E6DEDE;
+            box-shadow: -6px 9px 30px #E6DEDE;
+  }
+  .chart-section .dotted-backdrop-wrapper {
+    right: 0px;
+    background-position: 120px 0px;
+  }
+  .challenges-section {
+    margin: 100px 0px;
+  }
+  .challenges-section .challenges-backdrop {
+    background-size: 120%;
+    height: 100%;
+    background-position: -100px 80px;
+  }
+  .challenges-section .dotted-backdrop2-wrapper {
+    background-position: 0px 80px;
+    left: 0px;
+  }
+  .challenges-section .row .custom-card {
+    width: 300px;
+  }
+  .challenges-section .row .custom-card .custom-img {
+    width: 150px;
+    height: 100px;
+  }
+  .challenges-section .row .custom-card .description {
+    font-size: 0.7em;
+    width: 270px;
+  }
+  .partners-section {
+    margin-top: 50px;
+  }
+  .getin-tuch-section {
+    overflow: hidden;
+  }
+  .getin-tuch-section .circle-3::before {
+    width: 1000px;
+    height: 1000px;
+    right: -600px;
+    top: 50px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container .backdrop1 {
+    background-position: -300px -250px;
+  }
+  .container .backdrop2 {
+    background-position: 100px -200px;
+  }
+  .container .boy-backdrop {
+    background-size: 120%;
+    background-position: 50px -0px;
+  }
+  .owl-carousel .item {
+    -webkit-box-shadow: 0px 9px 25px 0px #E6DEDE;
+            box-shadow: 0px 9px 25px 0px #E6DEDE;
+  }
+  .challenges-section {
+    margin: 100px 0px;
+  }
+  .challenges-section .challenges-backdrop {
+    background-size: 130%;
+    background-position: -150px 50px;
+  }
+  .challenges-section .dotted-backdrop2-wrapper {
+    background-position: -0px 50px;
+  }
+  .partners-section {
+    margin: 0px;
   }
 }
 /*# sourceMappingURL=landing.css.map */
